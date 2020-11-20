@@ -2,6 +2,7 @@
 body {
   background-image: url("../Image/Map.png");
   font-family: 'Teko', sans-serif;
+  margin: 0px;
 }
 
 ul {
@@ -61,17 +62,21 @@ li.BoutonArmes {
 
 .Introduction {
   background-image:url("../Image/Image intro.png");
+  background-size: cover;
   color: white;
   text-align: center;
   height: 800px;
-  width: 96%;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 100%;
   }
 .Introduction .Résumé {
   font-size: 20px;
   margin-top: 15%;
 }
+
+.Titre h1 {
+  margin-block-start: 0em;
+}
+
 .Présentation {
   background-color: grey;
   margin:2%;
@@ -81,8 +86,7 @@ justify-content: center;
 }
 .Description {
   margin: 10%;
-  font-size: 20px;
-
+  font-size: 20px
 }
 .VideoTuto {
 margin:2%;
