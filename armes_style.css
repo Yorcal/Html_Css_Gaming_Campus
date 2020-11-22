@@ -77,7 +77,7 @@ li.BoutonArmes {
 }
 
 .Epee {
-  background-image: url("../Image/Dieux/Aphrodite.png");
+  background-image: url("../Image/Armes/1.png");
   background-repeat: no-repeat;
   height: 500px;
   display: block;
@@ -87,7 +87,7 @@ li.BoutonArmes {
 }
 
 .Lance {
-  background-image: url("../Image/Dieux/Ares.png");
+  background-image: url("../Image/Armes/2.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 530px 500px;
@@ -100,7 +100,7 @@ li.BoutonArmes {
 
 
 .Bouclier {
-  background-image: url("../Image/Dieux/Artemis.png");
+  background-image: url("../Image/Armes/3.png");
   background-repeat: no-repeat;
   height: 500px;
   display: block;
@@ -110,7 +110,7 @@ li.BoutonArmes {
 }
 
 .Arc {
-  background-image: url("../Image/Dieux/Athena.png");
+  background-image: url("../Image/Armes/4.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 500px;
@@ -121,7 +121,7 @@ li.BoutonArmes {
 }
 
 .Gant {
-  background-image: url("../Image/Dieux/Demeter.png");
+  background-image: url("../Image/Armes/5.png");
   background-repeat: no-repeat;
   height: 500px;
   display: block;
@@ -131,7 +131,7 @@ li.BoutonArmes {
 }
 
 .Pistolet {
-  background-image: url("../Image/Dieux/Dionysus.png");
+  background-image: url("../Image/Armes/6.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 500px;
