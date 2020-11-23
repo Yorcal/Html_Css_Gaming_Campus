@@ -15,11 +15,15 @@ ul {
 }
 
 li {
+  float: right;
+}
+
+.MenuText li {
   float: left;
   font-size: 25px;
 }
 
-li a, .MenuDéroulant {
+.MenuText li a, .MenuDéroulant {
   display: inline-block;
   color: white;
   text-align: center;
@@ -28,7 +32,7 @@ li a, .MenuDéroulant {
 
 }
 
-li a:hover, .BoutonArmes:hover .MenuDéroulant {
+.MenuText li a:hover, .BoutonArmes:hover .MenuDéroulant {
   background-color: red;
 }
 
@@ -36,7 +40,7 @@ li.BoutonArmes {
   display: inline-block;
 }
 
-.Liste_Armes_Déroulant {
+.MenuText .Liste_Armes_Déroulant {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -45,7 +49,7 @@ li.BoutonArmes {
   z-index: 1;
 }
 
-.Liste_Armes_Déroulant a {
+.MenuText .Liste_Armes_Déroulant a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -53,7 +57,7 @@ li.BoutonArmes {
   text-align: left;
 }
 
-.Liste_Armes_Déroulant a:hover {
+.MenuText .Liste_Armes_Déroulant a:hover {
   background-color: #f1f1f1;
 }
 
