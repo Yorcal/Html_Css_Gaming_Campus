@@ -2,7 +2,6 @@
   font-family: 'hades';
   src: url(../Font/hades/HADES.otf) format('truetype');
 }
-
 body {
   background-image: url("../Image/Map.png");
   font-family: 'Teko', sans-serif;
@@ -16,6 +15,7 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
+
 li {
   float: right;
 }
@@ -88,6 +88,7 @@ li.BoutonArmes {
   align-items: center;
   justify-content: center;
   font-size: 25px;
+  height: 690px;
 }
 
 .Bouton a {
@@ -110,21 +111,21 @@ li.BoutonArmes {
   border-color: #1d2121;
   padding: 14px 25px;
 }
+
 .Introduction .Résumé {
   font-size: 20px;
   margin-top: 15%;
 }
 
-.Titre h1 {
-  margin-block-start: 0em;
-}
-
 .Présentation {
-  background-color: rgba(46, 44, 44, 0.8);
+  background-color: rgba(46, 49, 49, 0.8);
   margin:2%;
 display: flex;
 align-items: center;
 justify-content: center;
+color: white;
+border: solid #4D0A0A;
+border-radius: 10px;
 }
 .Description {
   margin: 10%;
@@ -136,28 +137,37 @@ margin:2%;
 .Dieux {
   height: 600px;
   width: 96%;
-  background-color: green;
+  background-color:rgba(77, 10, 10 , 0.8);
   margin:2%;
   box-sizing: border-box;
+  border: solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .Image {
-  background-image: url("../Image/Dieux/Zeus.png");
+  background-image: url("../Image/Dieux/Ares.png");
   box-sizing: content-box;
   height: 100%;
   background-repeat: no-repeat;
   background-position: bottom left;
   box-align: center;
+  text-align: center;
 }
 .Image .Description {
   margin-left:60%;
+  color: white;
 }
 
 .Armes {
   height: 700px;
   width: 96%;
-  background-color: purple;
+  background-color: rgba(46, 49, 49, 0.8);
   margin: 2%;
   box-align: center;
+  color: white;
+  border: solid #4D0A0A;
+  border-radius: 10px;
+  font-size: 20px;
 
 }
 
@@ -174,3 +184,4 @@ padding-top: 15%;
 padding-left: 20%;
 
 }
+
