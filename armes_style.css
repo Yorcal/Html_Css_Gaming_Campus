@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'hades';
+  src: url(../Font/hades/HADES.otf) format('truetype');
+}
+
 body {
   background-image: url("../Image/Map.png");
   font-family: 'Teko', sans-serif;
@@ -58,7 +63,6 @@ li.BoutonArmes {
 }
 
 .MenuText .Liste_Armes_Déroulant a:hover {
-  background-color: #f1f1f1;
   color: #333333;
 }
 
@@ -66,81 +70,53 @@ li.BoutonArmes {
   display: block;
 }
 
+.Armes {
+  background-color: rgba(46,49,49,0.9);
 
- .détails_droite {
-  margin-left: 30%;
-  margin-top: 5%;
-  margin-right: 5%;
-  font-size: 25px;
 }
-
-.détails_gauche {
- margin-right: 30%;
- margin-top: 5%;
- font-size: 25px;
- padding-left: 5%
+.Armes .Image_Video {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.Armes .Image_Video .Video{
+  display: block;
+  float: right;
+}
 .Epee {
-  background-image: url("../Image/Armes/1.png");
-  background-repeat: no-repeat;
-  height: 500px;
-  display: block;
-  border: solid pink;
-  background-size: 430px 550px;
-
+  background-color: rgba(255, 105, 97, 0.9);
+  margin-right: 5%;
+  margin-left: 5%;
 }
-
 .Lance {
-  background-image: url("../Image/Armes/2.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 530px 500px;
-  height: 500px;
-  display: block;
-  margin-top: 2%;
-  border: solid red;
+  background-color: turquoise;
+  margin-right: 5%;
+  margin-left: 5%;
 }
-
-
-
 .Bouclier {
-  background-image: url("../Image/Armes/3.png");
-  background-repeat: no-repeat;
-  height: 500px;
-  display: block;
-  background-size: 600px 500px;
-  border: solid green;
-  margin-top: 2%;
+  background-color: orange;
+  margin-right: 5%;
+  margin-left: 5%;
 }
-
 .Arc {
-  background-image: url("../Image/Armes/4.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 500px;
-  display: block;
-  background-size: 350px 500px;
-  border: solid #17329e;
-  margin-top: 2%;
+  background-color: rgba(202, 165, 226 ,0.9);
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .Gant {
-  background-image: url("../Image/Armes/5.png");
-  background-repeat: no-repeat;
-  height: 500px;
-  display: block;
-  background-size: 440px 500px;
-  border: solid #86a9bd;
-  margin-top: 2%
+  background-color: red;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
-.Pistolet {
-  background-image: url("../Image/Armes/6.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 500px;
-  display: block;
-  border: solid #9a04cd;
-  margin-top: 2%;
+.Pistolet{
+  background-color: gold;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+h2{
+  text-align: center;
+  font-family: 'hades';
+  font-size: 35px;
 }
