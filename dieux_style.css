@@ -176,6 +176,7 @@ li.BoutonArmes {
   background-image: url("../Image/Dieux/Hermes.png");
   background-repeat: no-repeat;
   height: 500px;
+  background-size: 540px 560px;
   display: block;
   border: solid #f07914;
   margin-top: 2%;
