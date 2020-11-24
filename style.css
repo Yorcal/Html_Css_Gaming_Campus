@@ -101,7 +101,6 @@ li.BoutonArmes {
 .Bouton2 :hover {
   background-color: black;
 }
-
 .Introduction .Résumé {
   font-size: 20px;
   margin-top: 15%;
@@ -112,7 +111,7 @@ li.BoutonArmes {
 }
 
 .Présentation {
-  background-color: grey;
+  background-color: rgba(46, 44, 44, 0.8);
   margin:2%;
 display: flex;
 align-items: center;
@@ -143,60 +142,26 @@ margin:2%;
 .Image .Description {
   margin-left:60%;
 }
-.Armes_image {
-  background: url("../Image/Armes/1.png")left top, url("../Image/Armes/2.png")right top, url("../Image/Armes/3.png")left center, url("../Image/Armes/4.png")right center, url("../Image/Armes/5.png")left bottom, url("../Image/Armes/6.png")right bottom 13%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 10%;
 
-}
 .Armes {
-  height: 900px;
+  height: 700px;
   width: 96%;
   background-color: purple;
   margin: 2%;
-
-
-}
-
-.Description_Arme_Haut {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top: 1%;
-  margin-bottom: 15%;
-}
-
-.Description_Arme_Milieu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  margin-top: 7%;
-  margin-bottom: 7%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-
-.Description_Arme_Bas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-bottom: 15%;
-  margin-top: 11%;
-}
-.Description_1 {
-  box-sizing: content-box;
-  width: 50%;
+  box-align: center;
 
 }
-.Description_2 {
-  box-sizing: content-box;
-  width: 50%;
-  text-align: right;
+
+.Zagreus {
+  background-image: url("../Image/Zagreus.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position:right;
+  height: 100%
+}
+.Armes .Description_armes{
+padding-right: 35%;
+padding-top: 15%;
+padding-left: 20%;
+
 }
