@@ -71,7 +71,7 @@ li.BoutonArmes {
 .Introduction {
   background-image: url("../Image/Zagreus_test.jpg");
   text-align: center;
-  height: 800px;
+  height: 893px;
   width: 100%;
 }
 
@@ -144,6 +144,22 @@ margin:2%;
   border-radius: 10px;
   overflow: hidden;
 }
+
+.Bouton_Dieux a {
+  text-decoration: none;
+  color: white;
+  background-color: #1d2121;
+  border: solid;
+  border-radius: 40px;
+  border-color: #1d2121;
+  padding: 14px 25px;
+}
+
+.Bouton_Dieux a:hover {
+  background-color: #1d2121;
+  color:#c30003;
+}
+
 .Image {
   background-image: url("../Image/Dieux/Ares.png");
   box-sizing: content-box;
@@ -183,5 +199,20 @@ padding-right: 35%;
 padding-top: 15%;
 padding-left: 20%;
 
+}
+
+.Bouton_Armes a {
+  text-decoration: none;
+  color: white;
+  background-color: #1d2121;
+  border: solid;
+  border-radius: 40px;
+  border-color: #1d2121;
+  padding: 14px 25px;
+}
+
+.Bouton_Armes a:hover {
+  background-color: #1d2121;
+  color:#c30003;
 }
 
