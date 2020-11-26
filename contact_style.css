@@ -1,3 +1,5 @@
+@import "menu.css";
+
 body {
   background-image: url(../Image/Map.png);
   font-family: 'Teko', sans-serif;
@@ -5,66 +7,6 @@ body {
   text-shadow: 2px 2px 1px black;
   margin: 0px;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-li{
-  float: right;
-}
-
-.MenuText li {
-  float: left;
-  font-size: 25px;
-}
-
-.MenuText li a, .MenuDéroulant {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 20px 28px;
-  text-decoration: none;
-  text-shadow: 0px 0px 0px black;
-
-}
-
-.MenuText li a:hover, .BoutonArmes:hover .MenuDéroulant {
-  background-color: red;
-}
-
-li.BoutonArmes {
-  display: inline-block;
-}
-
-.MenuText .Liste_Armes_Déroulant {
-  display: none;
-  position: absolute;
-  background-color: #333333;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.MenuText .Liste_Armes_Déroulant a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.MenuText .Liste_Armes_Déroulant a:hover {
-  color: #333333;
-}
-
-.BoutonArmes:hover .Liste_Armes_Déroulant {
-  display: block;
-}
-
 
 .Contact {
   color: gold;
@@ -88,4 +30,5 @@ li.BoutonArmes {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
