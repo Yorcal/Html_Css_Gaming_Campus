@@ -137,10 +137,11 @@ margin:2%;
   background-repeat: no-repeat;
   background-position:right bottom;
   height: 100%;
+  overflow:hidden;
 }
 .Armes .Description_armes{
 padding-right: 35%;
-padding-top: 15%;
+padding-top: 10%;
 padding-left: 20%;
 
 }
@@ -159,3 +160,10 @@ padding-left: 20%;
   background-color: #1d2121;
   color:#c30003;
 }
+.Armes .Zagreus h2{
+  font-family: 'hades';
+  font-size: 35px;
+  text-align: center;
+  margin-right: 15%;
+}
+
