@@ -13,10 +13,21 @@ body {
   margin: 0px;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'hades';
+  text-shadow: 3px 3px 2px black;
+  font-size: 70px;
+}
+.section {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .Armes {
   background-color: rgba(46,49,49,0.9);
-
 }
+
 .Armes .Image_Video {
   display: flex;
   align-items: center;
@@ -30,41 +41,35 @@ body {
   margin-right: 10%;
   margin-left: 10%;
   font-size: 20px;
+  font-size: 25px;
 }
 .Epee {
   background-color: rgba(193, 48, 41, 0.9);
-  margin-right: 5%;
-  margin-left: 5%;
 }
+
 .Lance {
   background-color: rgba(23, 146, 123, 0.9);
-  margin-right: 5%;
-  margin-left: 5%;
 }
+
 .Bouclier {
   background-color: rgba(166, 131, 52, 0.9);
-  margin-right: 5%;
-  margin-left: 5%;
 }
+
 .Arc {
   background-color: rgba(146, 90, 183,0.9);
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 .Gant {
   background-color: rgba(166, 90, 139,0.9);
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 .Pistolet{
   background-color: rgba(209, 173, 72,0.9);
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-bottom: 2%;
 }
+
 h2{
   text-align: center;
   font-family: 'hades';
-  font-size: 35px;
+  font-size: 50px;
 }
