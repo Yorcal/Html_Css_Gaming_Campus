@@ -13,34 +13,32 @@ body {
   margin: 0px;
 }
 
-.Titre_Dieux h1 {
+ h1 {
   text-align: center;
   font-family: 'hades';
-  color: white;
-  text-shadow: 2px 2px 1px black;
-  font-size: 50px;
+  text-shadow: 3px 3px 2px black;
+  font-size: 70px;
 }
 
 .Nom_dieu {
 text-align: center;
 font-family: 'hades';
-color: white;
 text-shadow: 2px 2px 1px black;
-font-size: 20px;
+font-size: 30px;
 
 }
 
 .détails_droite {
  margin-left: 30%;
- margin-top: 5%;
+ margin-top: 3%;
  margin-right: 5%;
- font-size: 25px;
+ font-size: 30px;
 }
 
 .détails_gauche {
 margin-right: 30%;
-margin-top: 5%;
-font-size: 25px;
+margin-top: 3%;
+font-size: 30px;
 padding-left: 5%
 }
 
@@ -145,4 +143,5 @@ padding-left: 5%
   border: solid lightyellow;
   margin-top: 2%;
   background-color: rgba(255, 249, 195, 0.7);
+  margin-bottom: 2%;
 }
